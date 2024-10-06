@@ -1,0 +1,42 @@
+[
+  {
+    "type": "physical",
+    "id": "667022992308734094480500f",
+    "name": "Laptop",
+    "price": 1200.0,
+    "weight": 2.5,
+    "dimensions": "14x10x1 inches"
+  },
+  {
+    "type": "digital",
+    "id": "670229923087340944805010",
+    "name": "Ebook",
+    "price": 10.0,
+    "fileSize": "15MB",
+    "fileType": "PDF"
+  },
+  {
+    "type": "physical",
+    "id": "670229923087340944805011",
+    "name": "Smartphone",
+    "price": 799.0,
+    "weight": 0.4,
+    "dimensions": "6x3x0.3 inches"
+  },
+  {
+    "type": "digital",
+    "id": "670229923087340944805012",
+    "name": "Music Album",
+    "price": 15.0,
+    "fileSize": "200MB",
+    "fileType": "MP3"
+  },
+  {
+    "type": "physical",
+    "id": "670229923087340944805013",
+    "name": "Tablet",
+    "price": 499.0,
+    "weight": 0.6,
+    "dimensions": "8x5x0.3 inches"
+  }
+]
