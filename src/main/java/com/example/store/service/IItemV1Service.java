@@ -39,4 +39,9 @@ public class IItemV1Service implements IItemService<Item> {
     public List<Item> getItemByPriceBetween(float minPrice, float maxPrice) {
         return this.repository.findByPriceBetween(minPrice, maxPrice);
     }
+
+    @Override
+    public Item createItem(Item newItem) {
+        return this.repository.save(newItem);
+    }
 }

@@ -2,6 +2,8 @@ package com.example.store.controller;
 
 import com.example.store.service.IItemService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
@@ -32,10 +34,16 @@ public abstract class ItemController<T> {
         return service.getItemById(id);
     }
 
+    // GET /v1/item?minPrice=#&maxPrice=#
     @GetMapping(value = "", params = {"minPrice", "maxPrice"})
     public List<T> getItemsByPriceRange(
             @RequestParam("minPrice") float minPrice, @RequestParam("maxPrice")float maxPrice
     ) {
         return service.getItemByPriceBetween(minPrice, maxPrice);
+    }
+
+    @PostMapping("")
+    public T createItem(@RequestBody T item) {
+        return service.createItem(item);
     }
 }

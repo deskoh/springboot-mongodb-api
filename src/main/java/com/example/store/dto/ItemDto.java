@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type", visible = true)
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")
 @JsonSubTypes({
         @JsonSubTypes.Type(value = PhysicalItemDto.class, name = "physical"),
         @JsonSubTypes.Type(value = DigitalItemDto.class, name = "digital")
@@ -16,7 +16,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ItemDto {
     private String id;
-    private String type;
     private String productName;
     private double cost;
 }

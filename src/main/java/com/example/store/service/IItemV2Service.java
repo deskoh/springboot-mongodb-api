@@ -54,4 +54,12 @@ public class IItemV2Service implements IItemService<ItemDto> {
                 .map(ItemMapper.INSTANCE::toItemDto)
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public ItemDto createItem(ItemDto newItem) {
+        System.out.println(newItem.getClass());
+        var result = this.repository.save(ItemMapper.INSTANCE.toItem(newItem));
+        System.out.println(result.getClass());
+        return ItemMapper.INSTANCE.toItemDto(result);
+    }
 }
