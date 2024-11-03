@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")
 @JsonSubTypes({
         @JsonSubTypes.Type(value = PhysicalItemDto.class, name = "physical"),
@@ -18,4 +20,6 @@ public class ItemDto {
     private String id;
     private String productName;
     private double cost;
+    private String categoryName;
+    private List<String> tags;
 }

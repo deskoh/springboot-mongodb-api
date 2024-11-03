@@ -15,12 +15,14 @@ public interface MapperCentralConfig {
     @SubclassMapping(source = DigitalItemDto.class, target = DigitalItem.class)
     @SubclassMapping(source = PhysicalItemDto.class, target = PhysicalItem.class)
     @Mapping(source = "productName", target = "name")
+    @Mapping(source = "categoryName", target = "category")
     @Mapping(source = "cost", target = "price")
     Item anyDtoToEntity(ItemDto dto);
 
     @SubclassMapping(source = DigitalItem.class, target = DigitalItemDto.class)
     @SubclassMapping(source = PhysicalItem.class, target = PhysicalItemDto.class)
     @Mapping(source = "name", target = "productName")
+    @Mapping(source = "category", target = "categoryName")
     @Mapping(source = "price", target = "cost")
     ItemDto entityToDto(Item item);
 }

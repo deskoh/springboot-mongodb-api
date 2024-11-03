@@ -5,6 +5,8 @@
     "price": 1200.0,
     "weight": 2.5,
     "dimensions": "14x10x1 inches",
+    "category": "Computers & Accessories",
+    "tags": ["electronics", "computing", "portable", "technology"],
     "_class": "com.example.store.model.PhysicalItem"
   },
   {
@@ -14,6 +16,8 @@
     "fileSize": "15MB",
     "fileType": "PDF",
     "type": "digital",
+    "category": "Books",
+    "tags": ["digital", "books", "reading", "PDF"],
     "_class": "com.example.store.model.DigitalItem"
   },
   {
@@ -22,6 +26,8 @@
     "price": 799.0,
     "weight": 0.4,
     "dimensions": "6x3x0.3 inches",
+    "category": "Mobile Devices",
+    "tags": ["electronics", "mobile", "portable", "technology"],
     "_class": "com.example.store.model.PhysicalItem"
   },
   {
@@ -31,6 +37,8 @@
     "fileSize": "200MB",
     "fileType": "MP3",
     "type": "digital",
+    "category": "Music",
+    "tags": ["digital", "music", "audio", "MP3"],
     "_class": "com.example.store.model.DigitalItem"
   },
   {
@@ -39,6 +47,113 @@
     "price": 499.0,
     "weight": 0.6,
     "dimensions": "8x5x0.3 inches",
+    "category": "Mobile Devices",
+    "tags": ["electronics", "computing", "portable", "touchscreen"],
     "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805014",
+    "name": "Headphones",
+    "price": 150.0,
+    "weight": 0.2,
+    "dimensions": "7x6x3 inches",
+    "category": "Audio Accessories",
+    "tags": ["electronics", "audio", "portable", "music"],
+    "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805015",
+    "name": "Ebook - Advanced Programming",
+    "price": 20.0,
+    "fileSize": "25MB",
+    "fileType": "EPUB",
+    "type": "digital",
+    "category": "Books",
+    "tags": ["digital", "books", "education", "EPUB"],
+    "_class": "com.example.store.model.DigitalItem"
+  },
+  {
+    "id": "670229923087340944805016",
+    "name": "Smartwatch",
+    "price": 299.0,
+    "weight": 0.1,
+    "dimensions": "1.5x1.5x0.5 inches",
+    "category": "Wearable Technology",
+    "tags": ["electronics", "wearable", "portable", "technology"],
+    "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805017",
+    "name": "Audiobook - Fiction Bestseller",
+    "price": 25.0,
+    "fileSize": "500MB",
+    "fileType": "MP3",
+    "type": "digital",
+    "category": "Books",
+    "tags": ["digital", "books", "audio", "MP3"],
+    "_class": "com.example.store.model.DigitalItem"
+  },
+  {
+    "id": "670229923087340944805018",
+    "name": "Gaming Console",
+    "price": 400.0,
+    "weight": 3.2,
+    "dimensions": "12x8x3 inches",
+    "category": "Gaming",
+    "tags": ["electronics", "gaming", "entertainment", "technology"],
+    "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805019",
+    "name": "Movie Download",
+    "price": 10.0,
+    "fileSize": "1.5GB",
+    "fileType": "MP4",
+    "type": "digital",
+    "category": "Movies & Entertainment",
+    "tags": ["digital", "movies", "entertainment", "MP4"],
+    "_class": "com.example.store.model.DigitalItem"
+  },
+  {
+    "id": "670229923087340944805020",
+    "name": "Wireless Keyboard",
+    "price": 45.0,
+    "weight": 0.7,
+    "dimensions": "18x6x1 inches",
+    "category": "Computer Accessories",
+    "tags": ["electronics", "computing", "accessories", "technology"],
+    "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805021",
+    "name": "Ebook - Science Fiction Novel",
+    "price": 12.0,
+    "fileSize": "8MB",
+    "fileType": "PDF",
+    "type": "digital",
+    "category": "Books",
+    "tags": ["digital", "books", "fiction", "PDF"],
+    "_class": "com.example.store.model.DigitalItem"
+  },
+  {
+    "id": "670229923087340944805022",
+    "name": "External Hard Drive",
+    "price": 100.0,
+    "weight": 0.5,
+    "dimensions": "4x3x0.5 inches",
+    "category": "Storage Devices",
+    "tags": ["electronics", "storage", "portable", "technology"],
+    "_class": "com.example.store.model.PhysicalItem"
+  },
+  {
+    "id": "670229923087340944805023",
+    "name": "Software License",
+    "price": 75.0,
+    "fileSize": "500KB",
+    "fileType": "EXE",
+    "type": "digital",
+    "category": "Software",
+    "tags": ["digital", "software", "license", "EXE"],
+    "_class": "com.example.store.model.DigitalItem"
   }
 ]
